@@ -21,7 +21,7 @@ p{padding-bottom:.5em;
 	padding-right:5em;
 	padding-top:.5em;
 	line-height:1.5em;
-	font-size:1.2em;
+	font-size:1.3em;
 	color:#000;
 	font-family: 'Gentium Basic', serif;
 	}
@@ -59,16 +59,16 @@ cite{font-size:1em;
 
 footer{font-family: 'Gentium Basic', serif;
 	font-size:1em;
-		padding-bottom:1em;
+		padding-bottom:1.5em;
 		padding-left:10em;
-		padding-top:1em;
+		padding-top:1.5em;
 		padding-right:6em;
 		color:#fff;
-		background-color:firebrick;}
+		background-color:#db8265;}
 
 nav {font-size:1.5em;
-	border-top: 1px solid firebrick;
-	border-bottom: 1px solid firebrick;
+	border-top: 1px solid #975950;
+	border-bottom: 1px solid #975950;
 	padding: 1.5em 0;
 	}
 
@@ -93,3 +93,13 @@ a:link{color: black;
 
 a:hover {color:firebrick;}
 
+.baker{
+	position:relative; 
+	left:19em;
+	padding-top:2em;
+	padding-bottom:2em;}
+
+.sher{max-width:30%;
+	padding-top:2em;
+	left:29em;
+	position:relative;}
