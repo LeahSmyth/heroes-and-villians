@@ -197,7 +197,7 @@ p{padding-bottom:.5em;
 
 /*---TABLET---*/
 
-@media (max-width: 50em) {
+@media (max-width:979px) {
 
 h2 { font-family: 'Tangerine', cursive;
 	color:#000;
@@ -357,7 +357,7 @@ nav ul li {display:inline;
 	
 /*---SMARTPHONE---*/
 
-@media (max-width: 30em) {
+@media (max-width:414px) {
 
 h2 { font-family: 'Tangerine', cursive;
 	color:#000;
@@ -456,17 +456,18 @@ cite{font-size:.5em;
 }
     
 .nav a{font-family: 'Gentium Basic', serif;
-	padding:4em 1em;
+	padding:3em 1em;
 	text-align:center;
-	margin:3px;
+	margin:1px;
 	color:#000;
 	text-decoration:none;
 	font-size:1em;
 	font-weight:bold;}
 
 nav ul li {display:inline;
-	margin:4px;
+	margin:3px;
 	text-align:center;}
+
     
 .bkr{position:relative;
     max-width:60%;
@@ -505,8 +506,8 @@ nav ul li {display:inline;
 .door{position:relative;
     max-width:3.7%;
     padding-top:0em;
-    padding-left:13.5em;
-    bottom:2.8em;}
+    padding-left:12.6em;
+    bottom:2.5em;}
 
 .door1{position:relative;
         max-width:100%;

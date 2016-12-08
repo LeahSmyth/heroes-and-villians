@@ -11,17 +11,35 @@
 
 		<link href="https://fonts.googleapis.com/css?family=Gentium+Basic:400i" rel="stylesheet">
 		
-		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    
+         <script>
+ $(function() {
+   $('a[href*=#]:not([href=#])').click(function() {
+     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+       var target = $(this.hash);
+       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+       if (target.length) {
+         $('html,body').animate({
+           scrollTop: target.offset().top
+         }, 1000);
+         return false;
+       }
+     }
+   });
+ });
+ </script>
+        
 	</head>
 	
 	<body>      
         
 <nav class="nav">
     <ul>
-        <li><a href="#Sherlock Holmes">HOLMES</a></li>
-        <li><a href="#Dr Watson">WATSON</a></li>
+        <li><a href="#Sherlock-Holmes">HOLMES</a></li>
+        <li><a href="#Dr-Watson">WATSON</a></li>
         <li><a href="#Moriarty">MORIARTY</a></li>
-        <li><a href="#Irene Adler">ADLER</a></li>
+        <li><a href="#Irene-Adler">ADLER</a></li>
      </ul>
      </nav>
         
@@ -42,7 +60,7 @@
 		
 <p></p>
         
-<h2 id="Sherlock Holmes">Sherlock Holmes</h2>
+<h2 id="Sherlock-Holmes">Sherlock Holmes</h2>
 <img class="sher" src="images/sherlock2.png"/>
         
  <div class="news">
@@ -54,7 +72,7 @@ All but one are set in the Victorian or Edwardian periods, taking place between 
 
 <p></p>
         
-<h2 id="Dr Watson">Dr Watson</h2>
+<h2 id="Dr-Watson">Dr Watson</h2>
 <img class="watson" src="images/watson1.png"/>
 
         <div class="newspaper">
@@ -76,7 +94,7 @@ Despite only appearing in two stories, Moriarty has been proven to be the most d
 
 <p></p>
         
-<h2 id="Irene Adler">Irene Adler</h2>
+<h2 id="Irene-Adler">Irene Adler</h2>
         
 <img class="adler" src="images/adler1.png"/>
 <div class="newspaper">
