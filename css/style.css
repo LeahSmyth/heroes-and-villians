@@ -11,39 +11,43 @@ h2 { font-family: 'Tangerine', cursive;
 	color:#000;
 			text-align: center;
     		font-size:3.5em;
-			padding-top:.5em;
+			padding-top:0em;
 			padding-bottom:.5em;
 			}
 
 /*---Quote---*/
 
-blockquote{font-size:1.5em;
+blockquote{font-size:1.75em;
 			color:#C77255;
 			line-height:1.35em;
-			padding-left:3.5em;
-			padding-right:3.5em;
+			margin-left:6em;
+            padding-left:1em;
+			padding-right:7em;
+            margin-top:.5em;
+            margin-bottom:1em;
 			font-family: 'Gentium Basic', serif;
+            border-left:3px solid #999;
 			}
 
 cite{font-size:.9em;
 	color:#000;
-	padding-top:2em;
-	padding-left:46em;
+	padding-top:4em;
+	padding-left:60%;
 }
 
 /*---Nav---*/
 
-.nav a{font-family: 'Gentium Basic', serif;
-	padding:4em 1em;
+.nav a{font-family: 'Tangerine', cursive;
+	padding:0em 1em;
 	text-align:center;
 	margin:10px;
-	color:#000;
+	color:#000000;
 	text-decoration:none;
-	font-size:1.2em;
+	font-size:2em;
 	font-weight:bold;}
 
-nav {padding-top:1em;
-	padding-bottom:1em;}
+nav {padding-top:0em;
+	padding-bottom:0em;}
 
 nav ul {text-align:center;}
 
@@ -64,18 +68,33 @@ nav{position:fixed;
 			color:#db8265;
 			font-weight:bold;}
 
-a:link{color:#975950;
-		text-decoration:none;}
+.link{color:#975950;
+    text-decoration:none;}
 		
 /*---Images---*/
+
+.bricks{width:30%;
+        padding-bottom:4em;
+        padding-top:4em;
+        padding-left:35%;}
+
+.bricks1{width:30%;
+        padding-bottom:4em;
+        padding-top:4em;
+        padding-left:17%;}
+
+.bricks2{width:30%;
+        padding-bottom:4em;
+        padding-top:4em;
+        padding-left:12%;}
 
 .bkr{position:relative;
     max-width:60%;
     padding-left:18em;
-    padding-bottom:1em;
-    padding-top:6em;}
+    padding-bottom:4em;
+    padding-top:7em;}
 
-.sher{position:relative;
+#sher{position:relative;
     float:right;
 			max-width:15%;
 			margin:15px;
@@ -83,7 +102,7 @@ a:link{color:#975950;
 			padding-left:1.25em;
 			padding-bottom:1em;}
 
-.watson{position:relative;
+#watson{position:relative;
     float:left;
 			max-width:15%;
 			margin:15px;
@@ -91,7 +110,7 @@ a:link{color:#975950;
 			padding-right:1em;
 			padding-bottom:1em;}
 
-.mori{position:relative;
+#mori{position:relative;
     float:right;
 			max-width:12%;
 			margin:15px;
@@ -99,7 +118,7 @@ a:link{color:#975950;
 			padding-left:1.25em;
 			padding-bottom:1em;}
 
-.adler{position:relative;
+#adler{position:relative;
     float:left;
         max-width:10%;
 			margin:15px;
@@ -107,15 +126,31 @@ a:link{color:#975950;
 			padding-right:1em;
 			padding-bottom:1em;}
 
-.door{position:relative;
+#door{position:relative;
     max-width:3.7%;
     padding-top:0em;
-    padding-left:38.77em;
-    bottom:7.35em;}
+    padding-left:48.5%;
+    bottom:7.38em;}
 
 .door1{position:relative;
         max-width:100%;
         padding-top:2em;}
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
 
 /*---Text---*/
 
@@ -296,7 +331,7 @@ cite{font-size:.7em;
 }
     
 .nav a{font-family: 'Gentium Basic', serif;
-	padding:4em 1em;
+	padding:1em 1em;
 	text-align:center;
 	margin:5px;
 	color:#000;
@@ -315,43 +350,53 @@ nav ul li {display:inline;
     padding-bottom:1em;
     padding-top:6em;}
 
-.sher{position:relative;
+#sher{position:relative;
     float:right;
 			max-width:20%;
             padding-right:18em;
 			padding-left:13em;
 			padding-bottom:1em;}    
 
-.watson{position:relative;
+#watson{position:relative;
     float:left;
 			max-width:20%;
 			padding-left:18em;
 			padding-right:13em;
 			padding-bottom:1em;}
 
-.mori{position:relative;
+#mori{position:relative;
     float:right;
 			max-width:20%;
             padding-right:18em;
 			padding-left:13em;
 			padding-bottom:1em;}
 
-.adler{position:relative;
+#adler{position:relative;
     float:left;
         max-width:20%;
 			padding-left:18em;
 			padding-right:13em;
 			padding-bottom:1em;}
 
-.door{position:relative;
+#door{position:relative;
     max-width:3.7%;
     padding-top:0em;
-    padding-left:23.3em;
+    padding-left:48.5%;
     bottom:4.45em;}
 
 .door1{position:relative;
         max-width:100%;
         padding-top:2em;}
+    
+.bricks1{width:30%;
+        padding-bottom:4em;
+        padding-top:4em;
+        padding-left:16em;}
+
+.bricks2{width:30%;
+        padding-bottom:4em;
+        padding-top:4em;
+        padding-left:16em;}
 }
 
 	
@@ -441,22 +486,26 @@ p{padding-bottom:.5em;
 		color:#db8265;
 		}
     
-blockquote{font-size:1.1em;
+blockquote{font-size:1.4em;
 			color:#C77255;
 			line-height:1.35em;
-			padding-left:2em;
-			padding-right:2em;
+			margin-left:3em;
+            padding-left:1em;
+			padding-right:3em;
+            margin-top:.5em;
+            margin-bottom:1em;
 			font-family: 'Gentium Basic', serif;
+            border-left:3px solid #999;
 			}
 
 cite{font-size:.5em;
 	color:#000;
 	padding-top:2em;
-	padding-left:4.5em;
-}
+	padding-left:40%;
+}    
     
 .nav a{font-family: 'Gentium Basic', serif;
-	padding:3em 1em;
+	padding:1em 0em;
 	text-align:center;
 	margin:1px;
 	color:#000;
@@ -467,7 +516,6 @@ cite{font-size:.5em;
 nav ul li {display:inline;
 	margin:3px;
 	text-align:center;}
-
     
 .bkr{position:relative;
     max-width:60%;
@@ -475,43 +523,53 @@ nav ul li {display:inline;
     padding-bottom:1em;
     padding-top:6em;}
 
-.sher{position:relative;
+#sher{position:relative;
     float:right;
 			max-width:20%;
-            padding-right:10em;
-			padding-left:13em;
+            padding-right:8em;
+			padding-left:15em;
 			padding-bottom:1em;}    
 
-.watson{position:relative;
+#watson{position:relative;
     float:left;
 			max-width:20%;
-			padding-left:10em;
-			padding-right:13em;
+			padding-left:8em;
+			padding-right:15em;
 			padding-bottom:1em;}
 
-.mori{position:relative;
+#mori{position:relative;
     float:right;
 			max-width:20%;
-            padding-right:10em;
-			padding-left:13em;
+            padding-right:8em;
+			padding-left:15em;
 			padding-bottom:1em;}
 
-.adler{position:relative;
+#adler{position:relative;
     float:left;
         max-width:20%;
-			padding-left:10em;
-			padding-right:13em;
+			padding-left:8em;
+			padding-right:15em;
 			padding-bottom:1em;}
 
-.door{position:relative;
+#door{position:relative;
     max-width:3.7%;
     padding-top:0em;
-    padding-left:12.6em;
+    padding-left:48.5%;
     bottom:2.5em;}
 
 .door1{position:relative;
         max-width:100%;
         padding-top:2em;}
+    
+.bricks1{width:30%;
+        padding-bottom:4em;
+        padding-top:4em;
+        padding-left:8em;}
+
+.bricks2{width:30%;
+        padding-bottom:4em;
+        padding-top:4em;
+        padding-left:8em;}
     
     }
 
