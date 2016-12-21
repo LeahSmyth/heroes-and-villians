@@ -73,12 +73,12 @@ nav{position:fixed;
 		
 /*---Images---*/
 
-.bricks{width:30%;
+.bricks{width:28%;
         padding-bottom:4em;
         padding-top:4em;
         padding-left:35%;}
 
-.bricks1{width:28%;
+.bricks1{width:20%;
         padding-bottom:2.5em;
         padding-top:2.5em;
         padding-left:17%;}
@@ -88,10 +88,15 @@ nav{position:fixed;
         padding-top:3em;
         padding-left:21%;}
 
-.bricks3{width:28%;
+.bricks3{width:20%;
         padding-bottom:2.5em;
         padding-top:2.5em;
         padding-left:54%;}
+
+.bricks4{width:26%;
+        padding-bottom:4em;
+        padding-top:4em;
+        padding-left:18%;}
 
 .bkr{position:relative;
     max-width:60%;
@@ -141,6 +146,17 @@ nav{position:fixed;
         max-width:100%;
         padding-top:2em;
         }
+
+.hvr-pulse:hover, .hvr-pulse:focus, .hvr-pulse:active {
+  -webkit-animation-name:hvr-pulse;
+  animation-name:hvr-pulse;
+  -webkit-animation-duration:10s;
+  animation-duration:10s;
+  -webkit-animation-timing-function:linear;
+  animation-timing-function:linear;
+  -webkit-animation-iteration-count:infinite;
+  animation-iteration-count:infinite;
+}
 
 .hvr-grow {
   display: inline-block;
