@@ -309,6 +309,7 @@ p{padding-bottom:.5em;
 		padding-bottom:.5em;
 		padding-left:10em;
 		padding-top:1.5em;
+        margin-top:.2em;
 		padding-right:6em;
 		color:#000;
 		border-top:#db8265 2px solid;}
@@ -388,7 +389,7 @@ nav ul li {display:inline;
 #door{position:relative;
     max-width:3.7%;
     padding-top:0em;
-    padding-left:48.5%;
+    margin-left:48.5%;
     bottom:4.45em;}
 
 .door1{position:relative;
@@ -479,6 +480,7 @@ p{padding-bottom:.5em;
 		padding-bottom:.5em;
 		padding-left:2em;
 		padding-top:1.5em;
+        margin-top:.8em;
 		padding-right:2em;
 		color:#000;
 		border-top:#db8265 2px solid;}
@@ -508,7 +510,7 @@ blockquote{font-size:1.4em;
 cite{font-size:.5em;
 	color:#000;
 	padding-top:2em;
-	padding-left:40%;
+	padding-left:30%;
 }    
     
 .nav a{font-family: 'Gentium Basic', serif;
@@ -561,21 +563,21 @@ nav ul li {display:inline;
 #door{position:relative;
     max-width:3.7%;
     padding-top:0em;
-    padding-left:48.5%;
-    bottom:2.5em;}
+    margin-left:48.5%;
+    bottom:2.3em;}
 
 .door1{position:relative;
         max-width:100%;
         padding-top:2em;}
     
 .bricks1{width:30%;
-        padding-bottom:4em;
-        padding-top:4em;
+        padding-bottom:1em;
+        padding-top:1em;
         padding-left:8em;}
 
 .bricks2{width:30%;
-        padding-bottom:4em;
-        padding-top:4em;
+        padding-bottom:1em;
+        padding-top:1em;
         padding-left:8em;}
     
     }
