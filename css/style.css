@@ -134,7 +134,7 @@ nav{position:fixed;
 #door{position:relative;
     max-width:3.7%;
     padding-top:0em;
-    padding-left:48.5%;
+    margin-left:48.5%;
     bottom:7.38em;}
 
 .door1{position:relative;
