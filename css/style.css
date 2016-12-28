@@ -32,7 +32,7 @@ blockquote{font-size:1.75em;
 cite{font-size:.9em;
 	color:#000;
 	padding-top:4em;
-	padding-left:60%;
+	padding-left:16%;
 }
 
 /*---Nav---*/
@@ -182,7 +182,6 @@ body { max-width:100%;
             font-family: 'Slabo 27px', serif;
             margin:auto;
             line-height:1em;
-		  	text-align:left;
 			overflow-x:hidden;
 			color:black;
 			background:#fff;}
@@ -194,6 +193,7 @@ p{padding-bottom:.5em;
 	line-height:1.5em;
 	font-size:1.2em;
 	color:#000;
+    text-align:justify;
 	font-family: 'Gentium Basic', serif;
 	}
 
@@ -271,7 +271,6 @@ body { max-width:100%;
             font-family: 'Slabo 27px', serif;
             margin:auto;
             line-height:1em;
-		  	text-align:left;
 			overflow-x:hidden;
 			color:black;
 			background:#fff;}
@@ -283,6 +282,7 @@ p{padding-bottom:.5em;
 	line-height:1.5em;
 	font-size:1.2em;
 	color:#000;
+    text-align:justify;
 	font-family: 'Gentium Basic', serif;
 	}
 
@@ -343,15 +343,17 @@ p{padding-bottom:.5em;
 blockquote{font-size:1.3em;
 			color:#C77255;
 			line-height:1.35em;
-			padding-left:4.5em;
+			margin-left:5em;
+            padding-left:1em;
 			padding-right:5.5em;
 			font-family: 'Gentium Basic', serif;
+            border-left:3px solid #999;
 			}
 
 cite{font-size:.7em;
 	color:#000;
 	padding-top:2em;
-	padding-left:20em;
+	padding-left:12em;
 }
     
 .nav a{font-family: 'Gentium Basic', serif;
@@ -366,8 +368,7 @@ cite{font-size:.7em;
 nav ul li {display:inline;
 	margin:7px;
 	text-align:center;}
-
-    
+   
 .bkr{position:relative;
     max-width:60%;
     padding-left:9em;
@@ -412,18 +413,31 @@ nav ul li {display:inline;
         max-width:100%;
         padding-top:2em;}
     
-.bricks1{width:30%;
+.bricks{width:28%;
         padding-bottom:4em;
         padding-top:4em;
-        padding-left:16em;}
+        padding-left:37%;}
 
-.bricks2{width:30%;
+.bricks1{width:20%;
+        padding-bottom:2.5em;
+        padding-top:2.5em;
+        padding-left:17%;}
+
+.bricks2{width:12%;
+        padding-bottom:3em;
+        padding-top:3em;
+        padding-left:44%;}
+
+.bricks3{width:20%;
+        padding-bottom:2.5em;
+        padding-top:2.5em;
+        padding-left:54%;}
+
+.bricks4{width:26%;
         padding-bottom:4em;
         padding-top:4em;
-        padding-left:16em;}
-}
+    padding-left:37%;}}
 
-	
 /*---SMARTPHONE---*/
 
 @media (max-width:414px) {
@@ -442,7 +456,6 @@ body { max-width:100%;
             font-family: 'Slabo 27px', serif;
             margin:auto;
             line-height:1em;
-		  	text-align:left;
 			overflow-x:hidden;
 			color:black;
 			background:#fff;}
@@ -454,6 +467,7 @@ p{padding-bottom:.5em;
 	line-height:1.5em;
 	font-size:1.1em;
 	color:#000;
+    text-align:justify;
 	font-family: 'Gentium Basic', serif;
 	}
 
@@ -527,6 +541,7 @@ cite{font-size:.5em;
 	color:#000;
 	padding-top:2em;
 	padding-left:30%;
+    text-align: left;
 }    
     
 .nav a{font-family: 'Gentium Basic', serif;
@@ -586,15 +601,30 @@ nav ul li {display:inline;
         max-width:100%;
         padding-top:2em;}
     
-.bricks1{width:30%;
-        padding-bottom:1em;
-        padding-top:1em;
-        padding-left:8em;}
+.bricks{width:28%;
+        padding-bottom:1.5em;
+        padding-top:2.5em;
+        padding-left:37%;}
 
-.bricks2{width:30%;
-        padding-bottom:1em;
-        padding-top:1em;
-        padding-left:8em;}
+.bricks1{width:26%;
+        padding-bottom:1.5em;
+        padding-top:2em;
+        padding-left:38%;}
+
+.bricks2{width:20%;
+        padding-bottom:1.5em;
+        padding-top:2em;
+        padding-left:44%;}
+
+.bricks3{width:26%;
+        padding-bottom:1.5em;
+        padding-top:2em;
+        padding-left:40%;}
+
+.bricks4{width:30%;
+        padding-bottom:1.5em;
+        padding-top:2em;
+        padding-left:37%;}
     
     }
 
