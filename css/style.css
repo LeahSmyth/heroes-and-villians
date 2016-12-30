@@ -378,15 +378,15 @@ nav ul li {display:inline;
 #sher{position:relative;
     float:right;
 			max-width:20%;
-            padding-right:18em;
-			padding-left:13em;
+            padding-right:19em;
+			padding-left:12em;
 			padding-bottom:1em;}    
 
 #watson{position:relative;
     float:left;
 			max-width:20%;
-			padding-left:18em;
-			padding-right:13em;
+			padding-left:19em;
+			padding-right:12em;
 			padding-bottom:1em;}
 
 #mori{position:relative;
@@ -399,8 +399,8 @@ nav ul li {display:inline;
 #adler{position:relative;
     float:left;
         max-width:20%;
-			padding-left:18em;
-			padding-right:13em;
+			padding-left:19em;
+			padding-right:12em;
 			padding-bottom:1em;}
 
 #door{position:relative;
@@ -566,28 +566,28 @@ nav ul li {display:inline;
 #sher{position:relative;
     float:right;
 			max-width:20%;
-            padding-right:8em;
-			padding-left:15em;
+            padding-right:10em;
+			padding-left:13em;
 			padding-bottom:1em;}    
 
 #watson{position:relative;
     float:right;
 			max-width:20%;
-            padding-right:8em;
-			padding-left:15em;
+            padding-right:9em;
+			padding-left:17em;
 			padding-bottom:1em;}
 
 #mori{position:relative;
     float:right;
 			max-width:20%;
-            padding-right:8em;
+            padding-right:9em;
 			padding-left:15em;
 			padding-bottom:1em;}
 
 #adler{position:relative;
     float:right;
     max-width:20%;
-    padding-right:8em;
+    padding-right:9em;
     padding-left:15em;
     padding-bottom:1em;}
 
@@ -595,7 +595,7 @@ nav ul li {display:inline;
     max-width:3.7%;
     padding-top:0em;
     margin-left:48.5%;
-    bottom:2.3em;}
+    bottom:2.5em;}
 
 .door1{position:relative;
         max-width:100%;
